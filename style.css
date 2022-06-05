@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    background-color: #ecf0f3;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 25px;
+    color: #1d1d1d;
+    margin-top: 10px;
+    font-weight: 800;
+}
+
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading {
+    color: #1d1d1d;
+    margin-top: 18px;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 300px;
+}
+.calculator{
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 14px rgba(0, 0, 0, .15);
+    display: grid;
+    grid-template-columns: repeat(4,70px);
+}
+
+input{
+    grid-column: span 4;
+    height: 70px;
+    width: 260px;
+    box-shadow: inset 5px 5px 12px rgba(0, 0, 0, .15);
+    border-radius: 20px;
+    border: none;
+    text-align: end;
+    padding: 12px;
+    color: #1d1d1d;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 35px;
+    margin-bottom: 25px;
+
+}
+
+button{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin: 5px;
+    border: none;
+    box-shadow: 5px 5px 12px rgba(0,0,0,.15);
+    font-size: 20px;
+    font-weight: 450;
+    color: rgb(70,70, 70);
+}
+
+.equals{
+    width: 100px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, .15);
+}
